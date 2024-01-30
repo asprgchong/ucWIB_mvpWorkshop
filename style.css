@@ -1,11 +1,9 @@
 body {
     font-family: 'Cabin';
-    background-color: #758190;
 }
 
 .header {
     display: flex;
-    background-color: lightblue;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -25,7 +23,6 @@ body {
 }
 
 .table-row {
-    background-color: #a8b0bc;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -44,7 +41,6 @@ body {
 }
 
 .filter-row {
-    background-color: #FFFFFF;
     padding: 1%;
     margin: 1%;
     width: 300px;

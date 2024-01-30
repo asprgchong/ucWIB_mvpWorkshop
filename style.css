@@ -1,1 +1,73 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background-color: #758190;
+}
+
+.header {
+    display: flex;
+    background-color: lightblue;
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.table-container {
+    display: flex;
+    align-items: auto flex-start flex-end;
+    cursor: pointer;
+    
+}
+
+.table-container:hover{
+    box-shadow: 0 0 30px lightblue;
+}
+
+.table-row {
+    background-color: #a8b0bc;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-val {
+    font-size: 50px;
+}
+
+#filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filter-row {
+    background-color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.filter-row:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
